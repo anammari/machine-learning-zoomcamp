@@ -14,6 +14,7 @@ You can get the version information using the `__version__` field:
 ```python
 pd.__version__
 ```
+Answer: 2.0.3
 
 ### Getting the data 
 
@@ -38,6 +39,7 @@ How many columns are in the dataset?
 - 6560
 - 10989
 - 20640
+Answer: 10
 
 ### Question 3
 
@@ -47,6 +49,7 @@ Which columns in the dataset have missing values?
 - `total_bedrooms`
 - both of the above
 - no empty columns in the dataset
+Answer: total_bedrooms
 
 ### Question 4
 
@@ -56,6 +59,7 @@ How many unique values does the `ocean_proximity` column have?
 - 5
 - 7
 - 9
+Answer: 5
 
 ### Question 5
 
@@ -65,6 +69,7 @@ What's the average value of the `median_house_value` for the houses located near
 - 124805
 - 259212
 - 380440
+Answer: 259212
 
 ### Question 6
 
@@ -79,6 +84,7 @@ Has it changed?
 
 - Yes
 - No
+Answer: No.
 
 ### Question 7
 
@@ -97,6 +103,7 @@ Has it changed?
 - 0.001
 - 5.6992
 - 23.1233
+Answer: 5.6992
 
 
 ## Submit the results
