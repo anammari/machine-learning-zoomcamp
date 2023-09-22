@@ -19,7 +19,9 @@ The goal of this homework is to create a regression model for predicting housing
 ### EDA
 
 * Load the data.
-* Look at the `median_house_value` variable. Does it have a long tail? 
+* Look at the `median_house_value` variable. Does it have a long tail?
+
+Ans: It is right skewed however the right tail is not too long. 
 
 
 ### Preparing the dataset 
@@ -50,6 +52,8 @@ There's one feature with missing values. What is it?
 * `population`
 * `households`
 
+Ans: total_bedrooms
+
 
 ### Question 2
 
@@ -59,6 +63,8 @@ What's the median (50% percentile) for variable `'population'`?
 - 1095
 - 1195
 - 1295
+
+Ans: 1195
 
 ### Prepare and split the dataset
 
@@ -83,6 +89,12 @@ Options:
 - With mean
 - Both are equally good
 
+Ans: Both are equally good
+
+RMSE score when missing values are filled with 0:  0.33
+
+RMSE score when missing values are filled with mean:  0.33
+
 
 ### Question 4
 
@@ -102,6 +114,8 @@ Options:
 - 0.001
 - 0.0001
 
+Ans: 0
+
 
 ### Question 5 
 
@@ -119,6 +133,10 @@ What's the value of std?
 - 0.05
 - 0.005
 - 0.0005
+
+Ans: 0.5
+
+Standard deviation of RMSE scores:  1280.366
 
 > Note: Standard deviation shows how different the values are.
 > If it's low, then all values are approximately the same.
@@ -139,6 +157,10 @@ Options:
 - 0.23
 - 0.33
 - 0.43
+
+Ans: 0.43
+
+RMSE score on test dataset:  66713.687
 
 
 ## Submit the results
