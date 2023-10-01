@@ -47,6 +47,8 @@ What is the most frequent observation (mode) for the column `transmission_type`?
 - `AUTOMATED_MANUAL`
 - `DIRECT_DRIVE`
 
+Ans: AUTOMATIC
+
 
 ### Question 2
 
@@ -59,6 +61,8 @@ What are the two features that have the biggest correlation in this dataset?
 - `engine_hp` and `engine_cylinders`
 - `highway_mpg` and `engine_cylinders`
 - `highway_mpg` and `city_mpg`
+
+Ans: highway_mpg and city_mpg
 
 
 ### Make `price` binary
@@ -85,6 +89,8 @@ Which of these variables has the lowest mutual information score?
 - `transmission_type`
 - `vehicle_style`
 
+Ans: transmission_type
+
 
 ### Question 4
 
@@ -102,6 +108,8 @@ What accuracy did you get?
 - 0.84
 - 0.95
 
+Ans: 0.95
+
 
 ### Question 5 
 
@@ -118,6 +126,8 @@ Which of following feature has the smallest difference?
 - `city_mpg`
 
 > **Note**: the difference doesn't have to be positive
+
+Ans: engine_hp
 
 
 ### Question 6
@@ -137,6 +147,8 @@ Which of these alphas leads to the best RMSE on the validation set?
 - 10
 
 > **Note**: If there are multiple options, select the smallest `alpha`.
+
+Ans: 0
 
 
 ## Submit the results
