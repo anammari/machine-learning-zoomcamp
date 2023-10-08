@@ -62,6 +62,8 @@ Which numerical variable (among the following 4) has the highest AUC?
 - `highway_mpg`
 - `city_mpg`
 
+Ans: engine_hp
+
 ### Question 2: Training the model
 
 Apply one-hot-encoding using `DictVectorizer` and train the logistic regression with these parameters:
@@ -76,6 +78,8 @@ What's the AUC of this model on the validation dataset? (round to 3 digits)
 - 0.779
 - 0.878
 - 0.979
+
+Ans: 0.979
 
 
 ### Question 3: Precision and Recall
@@ -92,6 +96,8 @@ At which threshold precision and recall curves intersect?
 * 0.48
 * 0.68
 * 0.88
+
+Ans: 0.48
 
 
 ### Question 4: F1 score
@@ -112,6 +118,8 @@ At which threshold F1 is maximal?
 - 0.32
 - 0.52
 - 0.72
+
+Ans: 0.52
 
 
 ### Question 5: 5-Fold CV
@@ -135,6 +143,8 @@ How large is standard devidation of the scores across different folds?
 - 0.090
 - 0.140
 
+Ans: 0.003
+
 
 ### Question 6: Hyperparemeter Tuning
 
@@ -151,6 +161,8 @@ Which `C` leads to the best mean score?
 - 0.1
 - 0.5
 - 10
+
+Ans: 10
 
 If you have ties, select the score with the lowest std. If you still have ties, select the smallest `C`.
 
