@@ -14,6 +14,8 @@ Select the option that's closest to your solution.
 * What's the version of pipenv you installed?
 * Use `--version` to find out
 
+Ans: 2023.10.3
+
 
 ## Question 2
 
@@ -21,7 +23,9 @@ Select the option that's closest to your solution.
 * What's the first hash for scikit-learn you get in Pipfile.lock?
 
 > **Note**: you should create an empty folder for homework
-and do it there. 
+and do it there.
+
+Ans: sha256:0c275a06c5190c5ce00af0acbb61c06374087949f643ef32d355ece12c4db043
 
 
 ## Models
@@ -74,6 +78,8 @@ What's the probability that this client will get a credit?
 * 0.652
 * 0.902
 
+Ans: 0.902
+
 If you're getting errors when unpickling the files, check their checksum:
 
 ```bash
@@ -103,6 +109,8 @@ What's the probability that this client will get a credit?
 * 0.440
 * 0.645
 * 0.845
+
+Ans: 0.140
 
 
 ## Docker
@@ -139,6 +147,8 @@ So what's the size of this base image?
 * 147 MB
 * 374 MB
 * 574 MB
+
+Ans: 147 MB
 
 You can get this information when running `docker images` - it'll be in the "SIZE" column.
 
@@ -181,6 +191,8 @@ What's the probability that this client will get a credit now?
 * 0.530
 * 0.730
 * 0.968
+
+Ans: 0.730
 
 
 ## Submit the results
