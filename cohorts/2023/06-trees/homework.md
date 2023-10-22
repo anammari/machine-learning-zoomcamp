@@ -49,6 +49,8 @@ Which feature is used for splitting the data?
 * `latitude`
 * `population`
 
+Ans: ocean_proximity
+
 
 ## Question 2
 
@@ -65,6 +67,8 @@ What's the RMSE of this model on validation?
 * 0.245
 * 0.545
 * 0.845
+
+Ans: 0.245
 
 
 ## Question 3
@@ -84,6 +88,8 @@ Consider 3 decimal places for retrieving the answer.
 - 50
 - 160
 
+Ans: 160
+
 
 ## Question 4
 
@@ -102,6 +108,8 @@ What's the best `max_depth`, using the mean RMSE?
 * 15
 * 20
 * 25
+
+Ans: 20
 
 
 # Question 5
@@ -132,6 +140,8 @@ What's the most important feature (among these 4)?
 * `median_income`
 * `total_bedrooms`
 * `longitude`
+
+Ans: median_income
 
 
 ## Question 6
@@ -164,6 +174,8 @@ Which eta leads to the best RMSE score on the validation dataset?
 * 0.3
 * 0.1
 * Both give equal value
+
+Ans: 0.3
 
 
 
