@@ -151,6 +151,8 @@ What is the mean of test loss for all the epochs for the model trained with augm
 * 0.78
 * 0.108
 
+Ans: 0.48
+
 ### Question 6
 
 What's the average of test accuracy for the last 5 epochs (from 6 to 10)
@@ -160,6 +162,8 @@ for the model trained with augmentations?
 * 0.58
 * 0.78
 * 0.98
+
+Ans: 0.78
 
 
 ## Submit the results
