@@ -65,6 +65,7 @@ Since we have a binary classification problem, what is the best loss function fo
 
 > **Note:** since we specify an activation for the output layer, we don't need to set `from_logits=True`
 
+Ans: `binary crossentropy`
 
 ### Question 2
 
@@ -74,6 +75,8 @@ What's the number of parameters in the convolutional layer of our model? You can
 * 65
 * 896
 * 11214912
+
+Ans: 896
 
 
 ### Generators and Training
@@ -108,6 +111,8 @@ What is the median of training accuracy for all the epochs for this model?
 * 0.60
 * 0.80
 
+Ans: 0.80
+
 ### Question 4
 
 What is the standard deviation of training loss for all the epochs for this model?
@@ -116,6 +121,8 @@ What is the standard deviation of training loss for all the epochs for this mode
 * 0.061
 * 0.091
 * 0.131
+
+Ans: 0.091
 
 
 ### Data Augmentation
