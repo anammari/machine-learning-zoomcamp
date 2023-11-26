@@ -20,6 +20,8 @@ What's the size of the **converted** model?
 * 80 Mb
 * 164 Mb
 
+Ans: 43 Mb
+
 
 ## Question 2
 
@@ -32,6 +34,8 @@ What's the output index for this model?
 * 7
 * 13
 * 24
+
+Ans: 13
 
 
 ## Preparing the image
@@ -87,7 +91,7 @@ After the pre-processing, what's the value in the first pixel, the R channel?
 * 0.7450980
 * 0.9450980
 
-
+Ans: 0.9450980
 
 ## Question 4
 
@@ -97,6 +101,8 @@ Now let's apply this model to this image. What's the output of the model?
 * 0.458
 * 0.658
 * 0.858
+
+Ans: 0.658
 
 
 ## Prepare the lambda code 
@@ -139,6 +145,8 @@ So what's the size of this base image?
 * 662 Mb
 * 962 Mb
 
+Ans: 662 Mb
+
 You can get this information when running `docker images` - it'll be in the "SIZE" column.
 
 
@@ -162,6 +170,8 @@ What's the output from the model?
 * 0.4453
 * 0.6453
 * 0.8453
+
+Ans: 0.4453
 
 
 ## Publishing it to AWS
